@@ -33,11 +33,10 @@ case "$1" in
               # tmux list-sessions
               tmux list-windows -a
           fi
-
         ;;
-        # autossh) 
-        #   source /home/pi/autossh-script/subtasks/_autossh.sh;
-        #   autossh_fn $2;;
+        install) 
+          echo "installation called."
+        ;;
         *) usage;;
 esac
 
