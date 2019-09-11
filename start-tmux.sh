@@ -35,7 +35,9 @@ case "$1" in
           fi
         ;;
         install) 
-          echo "installation called."
+          curl https://raw.githubusercontent.com/cmmakerclub/tmux-utils/master/start-tmux.sh > /usr/bin/start-tmux.sh
+          chmod +x /usr/bin/start-tmux.sh
+          echo "installed."
         ;;
         *) usage;;
 esac
