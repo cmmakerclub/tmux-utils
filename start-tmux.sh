@@ -41,6 +41,3 @@ case "$1" in
         ;;
         *) usage;;
 esac
-
-# #source /home/pi/.profile
-# #workon serial
