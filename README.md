@@ -9,5 +9,5 @@
 # installation
 
 ```
-curl "https://raw.githubusercontent.com/cmmakerclub/tmux-utils/master/start-tmux.sh" | bash -s install
+curl "https://raw.githubusercontent.com/cmmakerclub/tmux-utils/master/start-tmux.sh" | sudo bash -s install
 ```
